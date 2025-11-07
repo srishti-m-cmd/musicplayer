@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="assests/style.css">
+    <script src="https://kit.fontawesome.com/7de464b263.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="wrapper">
+        <audio id="song" >
+            <source src="assests/aw.m4a" type="audio/mpeg">
+        </audio>
+
+
+        <div id="playerarea">
+
+            <div id="header">
+            <div class="circle"><i class="fa-solid fa-arrow-left"></i></div>
+            <h3>Currently</h3>
+            <div class="circle"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+
+
+            <div id="playerimg">
+                <div id="imagebox"></div>
+            </div>
+
+            <div id="songdetails">
+                <h4 id="songname">Ignite </h4>
+                <p id = "singer">Alan Walker</p>
+            </div>
+
+            <div id="playerbuttons">
+                <div id="slider">
+                    <input type="range" name="musicslider" id="sliderline">
+                </div>
+
+                <div id="buttons">
+                    <div class="circle"><i class="fa-solid fa-backward" id="backward"></i></div>
+                    <div class="circle"><i class="fa-solid fa-pause" id="playctrl"></i></div>
+                    <div class="circle"><i class="fa-solid fa-forward" id="forwardsong"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div id="listarea">
+            <div id="contentarea">
+                <h2>Music Player</h2>
+                <h4>FOR YOU TODAY !</h4>
+                <div id="playingshowcase">
+                    <div id="imagebox2">
+                        <h3 id="songname2">Ignite</h3>
+                    </div>
+                    <div id="listsofsongs">
+                        <ul id="ul">
+                            <!--  -->
+                    </div>
+                </div>
+            </div>
+            <div id="navarea">
+                <div id="button">
+                    <div class="circle"><i class="fa-solid fa-sliders"></i></div>
+                </div>
+                <div id="menuitems">
+                    <h4>Home</h4>
+                    <h4>Mine</h4>
+                    <h4>Explore</h4>
+                    <h4>Follow</h4>
+                    <h4>History</h4>
+
+                </div>
+                <div id="userprofile">
+                    <div class="circle" id="userimg">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assests/script.js"></script>
+</html>
