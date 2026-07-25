@@ -3,15 +3,7 @@
 A sleek and responsive Music Player Web App built using HTML, CSS, and JavaScript.
 This project demonstrates how to handle audio playback, dynamic UI updates, and user interactions with the HTML5 Audio API.
 
-🧩 Project Structure
-music-player/
-│
-├── index.html              # Main HTML file
-├── assets/
-│   ├── style.css           # Styling and layout
-│   ├── script.js           # Music player logic
-│   ├── /songs/             # (Optional) Folder for audio files
-│   └── /images/            # (Optional) Folder for album art/icons
+
 
 🎯 Features
 
